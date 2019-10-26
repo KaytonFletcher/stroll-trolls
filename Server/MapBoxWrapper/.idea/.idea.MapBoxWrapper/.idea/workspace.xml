@@ -4,10 +4,7 @@
     <list default="true" id="0cab0df4-d548-4462-bc37-8a7b84f5cc3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapBoxWrapper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapBoxWrapper/MapBoxWrapper.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper/MapBoxWrapper.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,25 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <marker date="1572082066804" expanded="false" signature="6:168" ph="..." />
-                <marker date="1572082066804" expanded="true" signature="194:2291" ph="{...}" />
-                <marker date="1572082066804" expanded="true" signature="220:2289" ph="{...}" />
-                <marker date="1572082066804" expanded="true" signature="781:1023" ph="{...}" />
-                <marker date="1572082066804" expanded="true" signature="1115:1178" ph="{...}" />
-                <marker date="1572082066804" expanded="true" signature="1233:1814" ph="{...}" />
-                <marker date="1572082066804" expanded="false" signature="1894:2278" ph="{...}" />
-                <marker date="1572082066804" expanded="true" signature="2024:2137" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,17 +23,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+              <folding>
+                <marker date="1572103220549" expanded="false" signature="6:168" ph="..." />
+                <marker date="1572103220549" expanded="true" signature="194:3977" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="220:3975" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="883:1125" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="1279:2820" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="1928:2246" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="2033:2150" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="2445:2668" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="2875:3455" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="3580:3964" ph="{...}" />
+                <marker date="1572103220549" expanded="true" signature="3710:3823" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="176">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding>
-                <marker date="1572082078053" expanded="true" signature="6:57" ph="..." />
-                <marker date="1572082078053" expanded="true" signature="75:490" ph="{...}" />
-                <marker date="1572082078053" expanded="true" signature="100:488" ph="{...}" />
-                <marker date="1572082078053" expanded="true" signature="185:330" ph="{...}" />
-                <marker date="1572082078053" expanded="true" signature="375:482" ph="{...}" />
+                <marker date="1572102505260" expanded="true" signature="6:91" ph="..." />
+                <marker date="1572102505260" expanded="true" signature="109:1005" ph="{...}" />
+                <marker date="1572102505260" expanded="true" signature="134:1003" ph="{...}" />
+                <marker date="1572102505260" expanded="true" signature="219:364" ph="{...}" />
+                <marker date="1572102505260" expanded="true" signature="420:503" ph="{...}" />
+                <marker date="1572102505260" expanded="true" signature="556:988" ph="{...}" />
+                <marker date="1572102505260" expanded="true" signature="646:872" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,7 +69,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -77,6 +79,7 @@
         <option value="$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg" />
         <option value="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" />
         <option value="$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" />
       </list>
     </option>
   </component>
@@ -164,11 +167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572080449255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="small changes">
+      <created>1572097147596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572097147597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7931000" />
+    <option name="totallyTimeSpent" value="11260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,6 +191,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -190,13 +201,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292517" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3292517" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -261,7 +272,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted testing project" />
     <MESSAGE value="hate" />
-    <option name="LAST_COMMIT_MESSAGE" value="hate" />
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,17 +283,17 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs</url>
-          <line>60</line>
-          <properties documentPath="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" initialLine="60">
+          <url>file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" initialLine="72">
             <startOffsets>
-              <option value="1655" />
+              <option value="2707" />
             </startOffsets>
             <endOffsets>
-              <option value="1684" />
+              <option value="2809" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -301,6 +313,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -310,31 +329,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="176">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
-            <marker date="1572082078053" expanded="true" signature="6:57" ph="..." />
-            <marker date="1572082078053" expanded="true" signature="75:490" ph="{...}" />
-            <marker date="1572082078053" expanded="true" signature="100:488" ph="{...}" />
-            <marker date="1572082078053" expanded="true" signature="185:330" ph="{...}" />
-            <marker date="1572082078053" expanded="true" signature="375:482" ph="{...}" />
+            <marker date="1572102505260" expanded="true" signature="6:91" ph="..." />
+            <marker date="1572102505260" expanded="true" signature="109:1005" ph="{...}" />
+            <marker date="1572102505260" expanded="true" signature="134:1003" ph="{...}" />
+            <marker date="1572102505260" expanded="true" signature="219:364" ph="{...}" />
+            <marker date="1572102505260" expanded="true" signature="420:503" ph="{...}" />
+            <marker date="1572102505260" expanded="true" signature="556:988" ph="{...}" />
+            <marker date="1572102505260" expanded="true" signature="646:872" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="1260">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
           <folding>
-            <marker date="1572082066804" expanded="false" signature="6:168" ph="..." />
-            <marker date="1572082066804" expanded="true" signature="194:2291" ph="{...}" />
-            <marker date="1572082066804" expanded="true" signature="220:2289" ph="{...}" />
-            <marker date="1572082066804" expanded="true" signature="781:1023" ph="{...}" />
-            <marker date="1572082066804" expanded="true" signature="1115:1178" ph="{...}" />
-            <marker date="1572082066804" expanded="true" signature="1233:1814" ph="{...}" />
-            <marker date="1572082066804" expanded="false" signature="1894:2278" ph="{...}" />
-            <marker date="1572082066804" expanded="true" signature="2024:2137" ph="{...}" />
+            <marker date="1572103220549" expanded="false" signature="6:168" ph="..." />
+            <marker date="1572103220549" expanded="true" signature="194:3977" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="220:3975" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="883:1125" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="1279:2820" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="1928:2246" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="2033:2150" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="2445:2668" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="2875:3455" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="3580:3964" ph="{...}" />
+            <marker date="1572103220549" expanded="true" signature="3710:3823" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -13,9 +13,10 @@ namespace MapBoxWrapper {
         //Longitude, latitude
 
         private const string walkingURL = "https://api.mapbox.com/directions/v5/mapbox/walking/";
+        private const string matrixURL = "https://api.mapbox.com/directions-matrix/v1/mapbox/walking/";
         private double distance { set; get; }
-        private Tuple<double, double> startPoint { set; get; }
-        private Tuple<double, double> endPoint { set; get; }
+        public Tuple<double, double> startPoint { set; get; }
+        public Tuple<double, double> endPoint { set; get; }
 
         private string accessToken { get; }
         
@@ -37,11 +38,54 @@ namespace MapBoxWrapper {
         
         
 
-        public void firstStep(List<Tuple<double, double>> listOfPoints) {
+        public async Task<Tuple<List<List<double>>, List<Tuple<double, double>>>> firstStep(List<Tuple<double, double>> listOfPoints) {
+            
+            //calling matrix API
+
+            string fullURL = matrixURL + createPathOfPoints(listOfPoints) + 
+                             "?annotations=distance" + $"&access_token={accessToken}";
             
             
+            var response = await webber.GetAsync(fullURL);
+
+            var content = await response.Content.ReadAsStringAsync();
+
+            JObject jsonData = JsonConvert.DeserializeObject<JObject>(content);
+
+            List<List<double>> resultDistanceMatrix = new List<List<double>>();
+            
+            var ArrayOfArrays = jsonData["distances"];
+
+            foreach (var array in ArrayOfArrays) {
+
+                List<double> temp = new List<double>();
+
+                foreach (var value in array) {
+                    
+                    temp.Add(value.ToObject<Double>());
+                    
+                }
+                
+                resultDistanceMatrix.Add(temp);
+                
+            }
+
+
+
+            var waypoints = jsonData["destinations"];
+            List<Tuple<double, double>> listOfWayPoints = new List<Tuple<double, double>>();
+            foreach (var waypoint in waypoints) {
+
+                var coords = waypoint["location"];
+                var temp = new Tuple<double, double>(coords[0].ToObject<Double>(), coords[1].ToObject<Double>());
+
+                listOfPoints.Add(temp);
+
+            }
             
             
+            return new Tuple<List<List<double>>, List<Tuple<double, double>>>(resultDistanceMatrix, listOfPoints);
+
         }
 
 
@@ -57,13 +101,17 @@ namespace MapBoxWrapper {
             var content = await response.Content.ReadAsStringAsync();
 
             JObject jsonData = JsonConvert.DeserializeObject<JObject>(content);
-
             var routes = jsonData["routes"];
             var realDistance = routes[0]["distance"];
 
             
             return realDistance.ToObject<Double>();
         }
+        
+        
+        
+        
+        
 
 
         public string createPathOfPoints(List<Tuple<double, double>> points) {
