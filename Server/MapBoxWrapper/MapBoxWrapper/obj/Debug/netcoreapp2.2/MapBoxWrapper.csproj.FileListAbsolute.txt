@@ -1,0 +1,9 @@
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/bin/Debug/netcoreapp2.2/MapBoxWrapper.deps.json
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/bin/Debug/netcoreapp2.2/MapBoxWrapper.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/bin/Debug/netcoreapp2.2/MapBoxWrapper.pdb
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/Debug/netcoreapp2.2/MapBoxWrapper.csprojAssemblyReference.cache
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/Debug/netcoreapp2.2/MapBoxWrapper.csproj.CoreCompileInputs.cache
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/Debug/netcoreapp2.2/MapBoxWrapper.AssemblyInfoInputs.cache
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/Debug/netcoreapp2.2/MapBoxWrapper.AssemblyInfo.cs
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/Debug/netcoreapp2.2/MapBoxWrapper.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/Debug/netcoreapp2.2/MapBoxWrapper.pdb

@@ -1,0 +1,14 @@
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/MapBoxWrapperTests.deps.json
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/MapBoxWrapperTests.runtimeconfig.json
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/MapBoxWrapperTests.runtimeconfig.dev.json
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/MapBoxWrapperTests.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/bin/Debug/netcoreapp2.2/MapBoxWrapperTests.pdb
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/Debug/netcoreapp2.2/MapBoxWrapperTests.csprojAssemblyReference.cache
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/Debug/netcoreapp2.2/MapBoxWrapperTests.csproj.CoreCompileInputs.cache
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/Debug/netcoreapp2.2/MapBoxWrapperTests.AssemblyInfoInputs.cache
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/Debug/netcoreapp2.2/MapBoxWrapperTests.AssemblyInfo.cs
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/Debug/netcoreapp2.2/MapBoxWrapperTests.dll
+/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/Debug/netcoreapp2.2/MapBoxWrapperTests.pdb
