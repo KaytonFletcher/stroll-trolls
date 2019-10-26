@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/MapBoxWrapper.csproj",
+    "projectUniqueName": "/Users/tylergoodman/RiderProjects/stroll-trolls/Server/MapBoxWrapper/MapBoxWrapper/MapBoxWrapper.csproj",
     "projectName": "MapBoxWrapper",
-    "projectPath": "/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/MapBoxWrapper.csproj",
-    "outputPath": "/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapper/obj/",
+    "projectPath": "/Users/tylergoodman/RiderProjects/stroll-trolls/Server/MapBoxWrapper/MapBoxWrapper/MapBoxWrapper.csproj",
+    "outputPath": "/Users/tylergoodman/RiderProjects/stroll-trolls/Server/MapBoxWrapper/MapBoxWrapper/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -5864,11 +5864,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/MapBoxWrapperTests.csproj",
+      "projectUniqueName": "/Users/tylergoodman/RiderProjects/stroll-trolls/Server/MapBoxWrapper/MapBoxWrapperTests/MapBoxWrapperTests.csproj",
       "projectName": "MapBoxWrapperTests",
-      "projectPath": "/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/MapBoxWrapperTests.csproj",
+      "projectPath": "/Users/tylergoodman/RiderProjects/stroll-trolls/Server/MapBoxWrapper/MapBoxWrapperTests/MapBoxWrapperTests.csproj",
       "packagesPath": "/Users/tylergoodman/.nuget/packages/",
-      "outputPath": "/Users/tylergoodman/RiderProjects/MapBoxWrapper/MapBoxWrapperTests/obj/",
+      "outputPath": "/Users/tylergoodman/RiderProjects/stroll-trolls/Server/MapBoxWrapper/MapBoxWrapperTests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
