@@ -1,2 +1,4 @@
 server/*.cfg
 *.cache
+*.nuget*
+*.vs/*
