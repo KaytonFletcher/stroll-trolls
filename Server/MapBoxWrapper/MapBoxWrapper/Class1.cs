@@ -26,18 +26,18 @@ namespace MapBoxWrapper {
         
 
 
-        mapBox(double distance, Tuple<double, double> startPoint, Tuple<double, double> endPoint) {
+        public mapBox(double distance, Tuple<double, double> startPoint, Tuple<double, double> endPoint) {
             this.distance = distance;
             this.startPoint = startPoint;
             this.endPoint = endPoint;
-            StreamReader file = new StreamReader("Token.txt");
+            StreamReader file = new StreamReader("accesstoken.cfg");
             accessToken = file.ReadLine();
 
         }
         
         
 
-        void firstStep(List<Tuple<double, double>> listOfPoints) {
+        public void firstStep(List<Tuple<double, double>> listOfPoints) {
             
             
             
@@ -45,12 +45,12 @@ namespace MapBoxWrapper {
         }
 
 
-        async Task<double> getRealDistance() {
+        public async Task<double> getRealDistance() {
 
 
             string fullURL = walkingURL + createPathOfPoints(new List<Tuple<double, double>>{startPoint, endPoint});
 
-            fullURL += $".json?access_token{accessToken}";
+            fullURL += $".json?access_token={accessToken}";
             
             var response = await webber.GetAsync(fullURL);
 
@@ -64,7 +64,7 @@ namespace MapBoxWrapper {
         }
 
 
-        string createPathOfPoints(List<Tuple<double, double>> points) {
+        public string createPathOfPoints(List<Tuple<double, double>> points) {
             
             
             
