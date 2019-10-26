@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxWrapper", "MapBoxWrap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxTest", "MapBoxTest\MapBoxTest.csproj", "{6BEAAD19-9872-44FD-A37E-93CFCA5ECCCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrollTrollAPI", "StrollTrollAPI\StrollTrollAPI.csproj", "{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}"
+EndProject
 
 
 
@@ -22,5 +24,9 @@ Global
 		{6BEAAD19-9872-44FD-A37E-93CFCA5ECCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BEAAD19-9872-44FD-A37E-93CFCA5ECCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BEAAD19-9872-44FD-A37E-93CFCA5ECCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

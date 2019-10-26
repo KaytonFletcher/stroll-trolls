@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cab0df4-d548-4462-bc37-8a7b84f5cc3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/StrollTrollAPI.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrollTrollAPI/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapBoxWrapper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper.sln" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,31 +23,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg">
+        <entry file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="98" selection-start-column="98" selection-end-column="98" />
+            <state relative-caret-position="550">
+              <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
+              <folding>
+                <marker date="1572104042533" expanded="false" signature="6:168" ph="..." />
+                <marker date="1572104042533" expanded="true" signature="194:3980" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="220:3978" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="883:1125" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="1279:2826" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="1928:2246" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="2033:2150" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="2445:2671" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="2880:3460" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="3585:3967" ph="{...}" />
+                <marker date="1572104042533" expanded="true" signature="3715:3826" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs">
+        <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="15">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
               <folding>
-                <marker date="1572103220549" expanded="false" signature="6:168" ph="..." />
-                <marker date="1572103220549" expanded="true" signature="194:3977" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="220:3975" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="883:1125" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="1279:2820" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="1928:2246" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="2033:2150" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="2445:2668" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="2875:3455" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="3580:3964" ph="{...}" />
-                <marker date="1572103220549" expanded="true" signature="3710:3823" ph="{...}" />
+                <marker date="1572106878044" expanded="true" signature="37:95" ph="{...}" />
+                <marker date="1572106878044" expanded="true" signature="77:93" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <marker date="1572104281359" expanded="false" signature="6:128" ph="..." />
+                <marker date="1572104281359" expanded="true" signature="167:930" ph="{...}" />
+                <marker date="1572104281359" expanded="true" signature="272:928" ph="{...}" />
+                <marker date="1572104281359" expanded="true" signature="373:438" ph="{...}" />
+                <marker date="1572104281359" expanded="true" signature="542:581" ph="{...}" />
+                <marker date="1572104281359" expanded="true" signature="679:690" ph="{...}" />
+                <marker date="1572104281359" expanded="true" signature="803:814" ph="{...}" />
+                <marker date="1572104281359" expanded="true" signature="911:922" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <marker date="1572104281369" expanded="false" signature="6:255" ph="..." />
+                <marker date="1572104281369" expanded="true" signature="282:596" ph="{...}" />
+                <marker date="1572104281369" expanded="true" signature="309:594" ph="{...}" />
+                <marker date="1572104281369" expanded="true" signature="358:423" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <marker date="1572104281375" expanded="false" signature="6:402" ph="..." />
+                <marker date="1572104281375" expanded="true" signature="429:1473" ph="{...}" />
+                <marker date="1572104281375" expanded="true" signature="456:1471" ph="{...}" />
+                <marker date="1572104281375" expanded="true" signature="511:565" ph="{...}" />
+                <marker date="1572104281375" expanded="true" signature="789:889" ph="{...}" />
+                <marker date="1572104281375" expanded="true" signature="1078:1465" ph="{...}" />
+                <marker date="1572104281375" expanded="true" signature="1117:1181" ph="{...}" />
+                <marker date="1572104281375" expanded="true" signature="1181:1389" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -48,16 +113,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="58">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding>
-                <marker date="1572102505260" expanded="true" signature="6:91" ph="..." />
-                <marker date="1572102505260" expanded="true" signature="109:1005" ph="{...}" />
-                <marker date="1572102505260" expanded="true" signature="134:1003" ph="{...}" />
-                <marker date="1572102505260" expanded="true" signature="219:364" ph="{...}" />
-                <marker date="1572102505260" expanded="true" signature="420:503" ph="{...}" />
-                <marker date="1572102505260" expanded="true" signature="556:988" ph="{...}" />
-                <marker date="1572102505260" expanded="true" signature="646:872" ph="{...}" />
+                <marker date="1572103594023" expanded="false" signature="6:91" ph="..." />
+                <marker date="1572103594023" expanded="true" signature="109:1035" ph="{...}" />
+                <marker date="1572103594023" expanded="true" signature="134:1033" ph="{...}" />
+                <marker date="1572103594023" expanded="true" signature="219:364" ph="{...}" />
+                <marker date="1572103594023" expanded="true" signature="420:503" ph="{...}" />
+                <marker date="1572103594023" expanded="true" signature="556:1018" ph="{...}" />
+                <marker date="1572103594023" expanded="true" signature="646:902" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,8 +134,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StrollTrollAPI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StrollTrollAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,6 +149,7 @@
         <option value="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" />
         <option value="$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" />
+        <option value="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
@@ -105,19 +176,19 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="MapBoxTest" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StrollTrollAPI" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="StrollTrollAPI" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,6 +211,19 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="StrollTrollAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/StrollTrollAPI/StrollTrollAPI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="StrollTrollAPI" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -152,6 +236,7 @@
       <updated>1572067517284</updated>
       <workItem from="1572067519537" duration="3933000" />
       <workItem from="1572073113730" duration="231000" />
+      <workItem from="1572104203587" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="deleted testing project">
       <created>1572080400648</created>
@@ -174,11 +259,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572097147597</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="small changes">
+      <created>1572103534394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572103534394</updated>
+    </task>
+    <task id="LOCAL-00005" summary="can get matrix">
+      <created>1572104052020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572104052022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11260000" />
+    <option name="totallyTimeSpent" value="14127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -193,15 +292,15 @@
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
@@ -273,7 +372,8 @@
     <MESSAGE value="deleted testing project" />
     <MESSAGE value="hate" />
     <MESSAGE value="small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
+    <MESSAGE value="can get matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="can get matrix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,25 +387,32 @@
           <line>86</line>
           <properties documentPath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" initialLine="72">
             <startOffsets>
-              <option value="2707" />
+              <option value="2710" />
             </startOffsets>
             <endOffsets>
-              <option value="2809" />
+              <option value="2815" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs</url>
+          <line>119</line>
+          <properties documentPath="$PROJECT_DIR$/MapBoxWrapper/mapBox.cs" initialLine="120">
+            <startOffsets>
+              <option value="3638" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3658" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs" />
     <entry file="file://$PROJECT_DIR$/MapBoxTest/accesstoken.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -313,10 +420,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="45">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1572104281375" expanded="false" signature="6:402" ph="..." />
+            <marker date="1572104281375" expanded="true" signature="429:1473" ph="{...}" />
+            <marker date="1572104281375" expanded="true" signature="456:1471" ph="{...}" />
+            <marker date="1572104281375" expanded="true" signature="511:565" ph="{...}" />
+            <marker date="1572104281375" expanded="true" signature="789:889" ph="{...}" />
+            <marker date="1572104281375" expanded="true" signature="1078:1465" ph="{...}" />
+            <marker date="1572104281375" expanded="true" signature="1117:1181" ph="{...}" />
+            <marker date="1572104281375" expanded="true" signature="1181:1389" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -327,38 +445,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="550">
+          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
           <folding>
-            <marker date="1572102505260" expanded="true" signature="6:91" ph="..." />
-            <marker date="1572102505260" expanded="true" signature="109:1005" ph="{...}" />
-            <marker date="1572102505260" expanded="true" signature="134:1003" ph="{...}" />
-            <marker date="1572102505260" expanded="true" signature="219:364" ph="{...}" />
-            <marker date="1572102505260" expanded="true" signature="420:503" ph="{...}" />
-            <marker date="1572102505260" expanded="true" signature="556:988" ph="{...}" />
-            <marker date="1572102505260" expanded="true" signature="646:872" ph="{...}" />
+            <marker date="1572104042533" expanded="false" signature="6:168" ph="..." />
+            <marker date="1572104042533" expanded="true" signature="194:3980" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="220:3978" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="883:1125" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="1279:2826" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="1928:2246" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="2033:2150" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="2445:2671" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="2880:3460" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="3585:3967" ph="{...}" />
+            <marker date="1572104042533" expanded="true" signature="3715:3826" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/mapBox.cs">
+    <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="58">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding>
-            <marker date="1572103220549" expanded="false" signature="6:168" ph="..." />
-            <marker date="1572103220549" expanded="true" signature="194:3977" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="220:3975" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="883:1125" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="1279:2820" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="1928:2246" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="2033:2150" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="2445:2668" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="2875:3455" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="3580:3964" ph="{...}" />
-            <marker date="1572103220549" expanded="true" signature="3710:3823" ph="{...}" />
+            <marker date="1572103594023" expanded="false" signature="6:91" ph="..." />
+            <marker date="1572103594023" expanded="true" signature="109:1035" ph="{...}" />
+            <marker date="1572103594023" expanded="true" signature="134:1033" ph="{...}" />
+            <marker date="1572103594023" expanded="true" signature="219:364" ph="{...}" />
+            <marker date="1572103594023" expanded="true" signature="420:503" ph="{...}" />
+            <marker date="1572103594023" expanded="true" signature="556:1018" ph="{...}" />
+            <marker date="1572103594023" expanded="true" signature="646:902" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1572104281369" expanded="false" signature="6:255" ph="..." />
+            <marker date="1572104281369" expanded="true" signature="282:596" ph="{...}" />
+            <marker date="1572104281369" expanded="true" signature="309:594" ph="{...}" />
+            <marker date="1572104281369" expanded="true" signature="358:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1572104281359" expanded="false" signature="6:128" ph="..." />
+            <marker date="1572104281359" expanded="true" signature="167:930" ph="{...}" />
+            <marker date="1572104281359" expanded="true" signature="272:928" ph="{...}" />
+            <marker date="1572104281359" expanded="true" signature="373:438" ph="{...}" />
+            <marker date="1572104281359" expanded="true" signature="542:581" ph="{...}" />
+            <marker date="1572104281359" expanded="true" signature="679:690" ph="{...}" />
+            <marker date="1572104281359" expanded="true" signature="803:814" ph="{...}" />
+            <marker date="1572104281359" expanded="true" signature="911:922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <marker date="1572106878044" expanded="true" signature="37:95" ph="{...}" />
+            <marker date="1572106878044" expanded="true" signature="77:93" ph="{...}" />
           </folding>
         </state>
       </provider>
