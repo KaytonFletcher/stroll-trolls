@@ -79,15 +79,14 @@ namespace MapBoxWrapper {
                 var coords = waypoint["location"];
                 var temp = new Tuple<double, double>(coords[0].ToObject<Double>(), coords[1].ToObject<Double>());
 
-                listOfPoints.Add(temp);
+                listOfWayPoints.Add(temp);
 
             }
             
             
-            return new Tuple<List<List<double>>, List<Tuple<double, double>>>(resultDistanceMatrix, listOfPoints);
+            return new Tuple<List<List<double>>, List<Tuple<double, double>>>(resultDistanceMatrix, listOfWayPoints);
 
         }
-
 
         public async Task<double> getRealDistance() {
 
@@ -122,7 +121,7 @@ namespace MapBoxWrapper {
 
             for (int i = 0; i < points.Count - 1; i++) {
                 
-                fullURL += startPoint.Item1 + "%2C" + startPoint.Item2 + "%3B";
+                fullURL += points[i].Item1 + "%2C" + points[i].Item2 + "%3B";
 
             }
 
