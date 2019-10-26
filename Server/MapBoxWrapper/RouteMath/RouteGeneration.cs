@@ -11,7 +11,7 @@ namespace RouteMath {
             return new Random().NextDouble() * (maxNumber - minNumber) + minNumber;
         }
 
-        public static Tuple<double, double> routePath(mapBox myBox) {
+        public static Tuple<double, double> routePath(MapBox myBox) {
 
             double desiredDistance = myBox.getDistance();
             Tuple<double, double> startPoint = myBox.getStartPoint();

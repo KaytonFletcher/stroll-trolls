@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace MapBoxWrapper {
-    public class mapBox {
+    public class MapBox {
 
         
         //Longitude, latitude
@@ -27,7 +27,7 @@ namespace MapBoxWrapper {
         
 
 
-        public mapBox(double distance, Tuple<double, double> startPoint, Tuple<double, double> endPoint) {
+        public MapBox(double distance, Tuple<double, double> startPoint, Tuple<double, double> endPoint) {
             this.distance = distance;
             this.startPoint = startPoint;
             this.endPoint = endPoint;
@@ -38,7 +38,7 @@ namespace MapBoxWrapper {
         
         
 
-        public async Task<Tuple<List<List<double>>, List<Tuple<double, double>>>> firstStep(List<Tuple<double, double>> listOfPoints) {
+        public async Task<Tuple<List<List<double>>, List<Tuple<double, double>>>> generateMatrix(List<Tuple<double, double>> listOfPoints) {
             
             //calling matrix API
 
@@ -113,7 +113,7 @@ namespace MapBoxWrapper {
         
 
 
-        public string createPathOfPoints(List<Tuple<double, double>> points) {
+        private string createPathOfPoints(List<Tuple<double, double>> points) {
             
             
             
