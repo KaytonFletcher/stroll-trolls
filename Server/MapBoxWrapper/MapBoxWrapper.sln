@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxWrapper", "MapBoxWrapper\MapBoxWrapper.csproj", "{92C7BC9B-05CE-427E-829C-DDF6C7D7B4C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxWrapperTests", "MapBoxWrapperTests\MapBoxWrapperTests.csproj", "{4F830759-E77D-40CB-B391-4A768037C7AC}"
-EndProject
 
 
 
@@ -18,9 +16,5 @@ Global
 		{92C7BC9B-05CE-427E-829C-DDF6C7D7B4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C7BC9B-05CE-427E-829C-DDF6C7D7B4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C7BC9B-05CE-427E-829C-DDF6C7D7B4C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4F830759-E77D-40CB-B391-4A768037C7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F830759-E77D-40CB-B391-4A768037C7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F830759-E77D-40CB-B391-4A768037C7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F830759-E77D-40CB-B391-4A768037C7AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
