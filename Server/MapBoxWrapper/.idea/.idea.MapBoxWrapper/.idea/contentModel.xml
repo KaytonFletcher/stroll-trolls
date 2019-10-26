@@ -36,6 +36,19 @@
       </e>
       <e p="MapBoxWrapper.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="RouteMath" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="RouteMath.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="RouteGeneration.cs" t="Include" />
+        <e p="RouteMath.csproj" t="IncludeRecursive" />
+      </e>
       <e p="StrollTrollAPI" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />

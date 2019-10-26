@@ -135,15 +135,15 @@ namespace MapBoxWrapper {
 
         }
 
-        double getDistance()
+        public double getDistance()
         {
             return distance;
         }
-        Tuple<double, double> getStartPoint()
+        public Tuple<double, double> getStartPoint()
         {
             return startPoint;
         }
-        Tuple<double, double> getEndPoint()
+        public Tuple<double, double> getEndPoint()
         {
             return endPoint;
         }

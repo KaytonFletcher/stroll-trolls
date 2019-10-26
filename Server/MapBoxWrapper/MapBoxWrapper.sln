@@ -2,14 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxWrapper", "MapBoxWrapper\MapBoxWrapper.csproj", "{92C7BC9B-05CE-427E-829C-DDF6C7D7B4C4}"
 EndProject
-<<<<<<< HEAD
-=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxTest", "MapBoxTest\MapBoxTest.csproj", "{6BEAAD19-9872-44FD-A37E-93CFCA5ECCCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrollTrollAPI", "StrollTrollAPI\StrollTrollAPI.csproj", "{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}"
 EndProject
->>>>>>> acfb6d5a7ab81898706e813052c202bead49a663
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteMath", "RouteMath\RouteMath.csproj", "{7BD2A14E-BE82-4641-9BED-D8DF1B34D7E2}"
+EndProject
 
 
 
@@ -31,5 +29,9 @@ Global
 		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB66EEE1-7BE5-4EEC-9C4B-EE84ECBC0EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD2A14E-BE82-4641-9BED-D8DF1B34D7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD2A14E-BE82-4641-9BED-D8DF1B34D7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD2A14E-BE82-4641-9BED-D8DF1B34D7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD2A14E-BE82-4641-9BED-D8DF1B34D7E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

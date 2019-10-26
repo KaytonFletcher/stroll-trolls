@@ -1,5 +1,6 @@
 using MapBoxWrapper;
 using System;
+using System.Collections.Generic;
 
 namespace RouteMath {
 
@@ -12,16 +13,16 @@ namespace RouteMath {
 
         public static Tuple<double, double> routePath(mapBox myBox) {
 
-            double desiredDistance = myBox.getDistance().Result;
+            double desiredDistance = myBox.getDistance();
             Tuple<double, double> startPoint = myBox.getStartPoint();
             Tuple<double, double> endPoint = myBox.getEndPoint();
 
             int waypointCount = 2;
-            vector<Tuple<double, double>> waypoints;
-            waypointCount.push_back(startPoint);
-            waypointCount.push_back(endPoint);
+            List<Tuple<double, double>> waypoints = new List<Tuple<double, double>>();
+            waypoints.Add(startPoint);
+            waypoints.Add(endPoint);
 
-            double realDistance = myBox.getRealDistance();
+            double realDistance = myBox.getRealDistance().Result;
             double distanceDifference = desiredDistance - realDistance;
             double minDistanceDifference = 0.5;
 
