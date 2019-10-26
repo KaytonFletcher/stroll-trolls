@@ -6,12 +6,12 @@ namespace RouteMath {
 
 	public class RouteGeneration {
 
-        public double GetRandomNumberInRange(double minNumber, double maxNumber)
+        public static double GetRandomNumberInRange(double minNumber, double maxNumber)
         {
             return new Random().NextDouble() * (maxNumber - minNumber) + minNumber;
         }
 
-        public static Tuple<double, double> routePath(mapBox myBox) {
+        public static void routePath(mapBox myBox) {
 
             double desiredDistance = myBox.getDistance();
             Tuple<double, double> startPoint = myBox.getStartPoint();
@@ -22,44 +22,46 @@ namespace RouteMath {
             waypoints.Add(startPoint);
             waypoints.Add(endPoint);
 
-            double realDistance = myBox.getRealDistance().Result;
+            double realDistance = myBox.getRealDistance().Result* 0.000621371;//convert to miles
             double distanceDifference = desiredDistance - realDistance;
             double minDistanceDifference = 0.5;
 
             bool goodRatio = true;
             if (distanceDifference <= minDistanceDifference)
             {
-                routeGeneration.setDistanceRatio(false);
+                goodRatio = false;
             }
 
 			if (goodRatio)
 			{
-				waypointCount += 2*distanceDifference/minDistanceDifference + 1;
-				for (i = 2; i < waypointCount; i++)
+				waypointCount += 2*(int)(distanceDifference/minDistanceDifference) + 1;
+
+                Console.WriteLine("We got a good ratio boys.");
+
+				for (int i = 2; i < waypointCount; i++)
 				{
-                    double smallerLongitude = startPoint.Item1();
-                    double largerLongitude = endPoint.Item1();
+                    double smallerLongitude = startPoint.Item1;
+                    double largerLongitude = endPoint.Item1;
 					//longitude
-                    if (startPoint.Item1() - endPoint.Item1() > 0)
+                    if (startPoint.Item1 - endPoint.Item1 > 0)
                     {
-                        smallerLongitude = endPoint.Item1();
-                        largerLongitude = startPoint.Item1();
+                        smallerLongitude = endPoint.Item1;
+                        largerLongitude = startPoint.Item1;
                     }
-                    double smallerLattitude = startPoint.Item2();
-                    double largerLattitude = endPoint.Item2();
-                    //lattitude
-                    if (startPoint.Item1() - endPoint.Item1() > 0)
+                    double smallerLatitude = startPoint.Item2;
+                    double largerLatitude = endPoint.Item2;
+                    //latitude
+                    if (startPoint.Item1 - endPoint.Item1 > 0)
                     {
-                        smallerLattitude = endPoint.Item2();
-                        largerLattitude = startPoint.Item2();
+                        smallerLatitude = endPoint.Item2;
+                        largerLatitude = startPoint.Item2;
                     }
 
                     double longitude = GetRandomNumberInRange(smallerLongitude, largerLongitude);
-                    double lattitude = GetRandomNumberInRange(smallerLattitude, largerLattitude);
+                    double latitude = GetRandomNumberInRange(smallerLatitude, largerLatitude);
 
-                    Tuple<double, double> waypoint;
-                    waypoint.Item1(longitude);
-                    waypoint.Item2(lattitude);
+                    Tuple<double, double> waypoint = Tuple.Create(longitude, latitude);
+                    Console.WriteLine(waypoint.Item1 + ", " + waypoint.Item2);
 
                 }
 			}
