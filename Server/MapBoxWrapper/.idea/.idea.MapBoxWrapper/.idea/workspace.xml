@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cab0df4-d548-4462-bc37-8a7b84f5cc3b" name="Default Changelist" comment="" />
+    <list default="true" id="0cab0df4-d548-4462-bc37-8a7b84f5cc3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapBoxWrapper.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapBoxWrapper/MapBoxWrapper.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MapBoxWrapper/MapBoxWrapper.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,35 +17,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            <state relative-caret-position="82">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
-                <marker date="1572078557720" expanded="false" signature="6:168" ph="..." />
-                <marker date="1572078557720" expanded="true" signature="194:2218" ph="{...}" />
-                <marker date="1572078557720" expanded="true" signature="220:2216" ph="{...}" />
-                <marker date="1572078557720" expanded="true" signature="781:1023" ph="{...}" />
-                <marker date="1572078557720" expanded="true" signature="1115:1178" ph="{...}" />
-                <marker date="1572078557720" expanded="true" signature="1233:1741" ph="{...}" />
-                <marker date="1572078557720" expanded="true" signature="1821:2205" ph="{...}" />
-                <marker date="1572078557720" expanded="true" signature="1951:2064" ph="{...}" />
+                <marker date="1572082066804" expanded="false" signature="6:168" ph="..." />
+                <marker date="1572082066804" expanded="true" signature="194:2291" ph="{...}" />
+                <marker date="1572082066804" expanded="true" signature="220:2289" ph="{...}" />
+                <marker date="1572082066804" expanded="true" signature="781:1023" ph="{...}" />
+                <marker date="1572082066804" expanded="true" signature="1115:1178" ph="{...}" />
+                <marker date="1572082066804" expanded="true" signature="1233:1814" ph="{...}" />
+                <marker date="1572082066804" expanded="false" signature="1894:2278" ph="{...}" />
+                <marker date="1572082066804" expanded="true" signature="2024:2137" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state>
+              <caret column="98" selection-start-column="98" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <marker date="1572078557726" expanded="false" signature="6:26" ph="..." />
-                <marker date="1572078557726" expanded="true" signature="57:216" ph="{...}" />
-                <marker date="1572078557726" expanded="true" signature="86:214" ph="{...}" />
-                <marker date="1572078557726" expanded="true" signature="158:208" ph="{...}" />
+                <marker date="1572082078053" expanded="true" signature="6:57" ph="..." />
+                <marker date="1572082078053" expanded="true" signature="75:490" ph="{...}" />
+                <marker date="1572082078053" expanded="true" signature="100:488" ph="{...}" />
+                <marker date="1572082078053" expanded="true" signature="185:330" ph="{...}" />
+                <marker date="1572082078053" expanded="true" signature="375:482" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,14 +68,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg" />
         <option value="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" />
-        <option value="$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" />
       </list>
     </option>
   </component>
@@ -79,6 +97,16 @@
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MapBoxTest" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MapBoxWrapper" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
@@ -122,10 +150,25 @@
       <workItem from="1572067519537" duration="3933000" />
       <workItem from="1572073113730" duration="231000" />
     </task>
+    <task id="LOCAL-00001" summary="deleted testing project">
+      <created>1572080400648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572080400649</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hate">
+      <created>1572080449255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572080449255</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5744000" />
+    <option name="totallyTimeSpent" value="7931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -139,7 +182,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -150,12 +193,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3292517" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3292517" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3292517" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.3292517" />
@@ -215,6 +258,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted testing project" />
+    <MESSAGE value="hate" />
+    <option name="LAST_COMMIT_MESSAGE" value="hate" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -222,10 +270,37 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs</url>
+          <line>60</line>
+          <properties documentPath="$PROJECT_DIR$/MapBoxWrapper/Class1.cs" initialLine="60">
+            <startOffsets>
+              <option value="1655" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1684" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapBoxTest/accesstoken.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MapBoxWrapper/accesstoken.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -233,32 +308,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
+    <entry file="file://$PROJECT_DIR$/MapBoxTest/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <marker date="1572078557720" expanded="false" signature="6:168" ph="..." />
-            <marker date="1572078557720" expanded="true" signature="194:2218" ph="{...}" />
-            <marker date="1572078557720" expanded="true" signature="220:2216" ph="{...}" />
-            <marker date="1572078557720" expanded="true" signature="781:1023" ph="{...}" />
-            <marker date="1572078557720" expanded="true" signature="1115:1178" ph="{...}" />
-            <marker date="1572078557720" expanded="true" signature="1233:1741" ph="{...}" />
-            <marker date="1572078557720" expanded="true" signature="1821:2205" ph="{...}" />
-            <marker date="1572078557720" expanded="true" signature="1951:2064" ph="{...}" />
+            <marker date="1572082078053" expanded="true" signature="6:57" ph="..." />
+            <marker date="1572082078053" expanded="true" signature="75:490" ph="{...}" />
+            <marker date="1572082078053" expanded="true" signature="100:488" ph="{...}" />
+            <marker date="1572082078053" expanded="true" signature="185:330" ph="{...}" />
+            <marker date="1572082078053" expanded="true" signature="375:482" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapperTests/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/Class1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="82">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <marker date="1572078557726" expanded="false" signature="6:26" ph="..." />
-            <marker date="1572078557726" expanded="true" signature="57:216" ph="{...}" />
-            <marker date="1572078557726" expanded="true" signature="86:214" ph="{...}" />
-            <marker date="1572078557726" expanded="true" signature="158:208" ph="{...}" />
+            <marker date="1572082066804" expanded="false" signature="6:168" ph="..." />
+            <marker date="1572082066804" expanded="true" signature="194:2291" ph="{...}" />
+            <marker date="1572082066804" expanded="true" signature="220:2289" ph="{...}" />
+            <marker date="1572082066804" expanded="true" signature="781:1023" ph="{...}" />
+            <marker date="1572082066804" expanded="true" signature="1115:1178" ph="{...}" />
+            <marker date="1572082066804" expanded="true" signature="1233:1814" ph="{...}" />
+            <marker date="1572082066804" expanded="false" signature="1894:2278" ph="{...}" />
+            <marker date="1572082066804" expanded="true" signature="2024:2137" ph="{...}" />
           </folding>
         </state>
       </provider>

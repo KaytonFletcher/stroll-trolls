@@ -58,9 +58,11 @@ namespace MapBoxWrapper {
 
             JObject jsonData = JsonConvert.DeserializeObject<JObject>(content);
 
-            double stringCheck = (double)jsonData["code"];
+            var routes = jsonData["routes"];
+            var realDistance = routes[0]["distance"];
 
-            return stringCheck;
+            
+            return realDistance.ToObject<Double>();
         }
 
 
