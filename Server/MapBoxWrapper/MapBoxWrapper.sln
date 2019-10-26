@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxWrapper", "MapBoxWrapper\MapBoxWrapper.csproj", "{92C7BC9B-05CE-427E-829C-DDF6C7D7B4C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapBoxTest", "MapBoxTest\MapBoxTest.csproj", "{6BEAAD19-9872-44FD-A37E-93CFCA5ECCCE}"
-EndProject
 
 
 
