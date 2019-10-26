@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ContentModelUserStore">
     <attachedFolders />
-    <explicitIncludes />
+    <explicitIncludes>
+      <Path>MapBoxTest</Path>
+      <Path>MapBoxWrapper</Path>
+      <Path>RouteMath</Path>
+      <Path>StrollTrollAPI</Path>
+    </explicitIncludes>
     <explicitExcludes />
   </component>
 </project>
