@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MapBoxWrapper\MapBoxWrapper.csproj" />
+      <ProjectReference Include="..\RouteMath\RouteMath.csproj" />
     </ItemGroup>
 
 </Project>

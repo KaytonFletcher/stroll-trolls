@@ -37,6 +37,7 @@
       <e p="MapBoxWrapper.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="RouteMath" t="IncludeRecursive">
+        <e p="accesstoken.cfg" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

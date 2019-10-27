@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using MapBoxWrapper;
 using StrollTrollAPI.Models;
 using Newtonsoft.Json;
+using RouteMath;
 
 
 namespace StrollTrollAPI.Controllers {
@@ -33,18 +34,12 @@ namespace StrollTrollAPI.Controllers {
             MapBox mapbox = new MapBox(distance, new Tuple<double, double>(coordinates[0], coordinates[1]),
                 new Tuple<double, double>(coordinates[2], coordinates[3]));
 
-            List<Tuple<double, double>> points = new List<Tuple<double, double>>();
+            //RouteGeneration.generateOtherPoints()
             
-            for (int i = 0; i < coordinates.Length; i+=2) {
-                
-                points.Add(new Tuple<double, double>(coordinates[i], coordinates[i+1]));
-                
-                
-            }
 
-            List<Tuple<double, double>> value = mapbox.generateMatrix(points).Result.Item2;
+            //List<Tuple<double, double>> value = mapbox.generateMatrix(points).Result.Item2;
 
-            return value;
+            //return value;
 
         }
 
