@@ -34,12 +34,35 @@ namespace StrollTrollAPI.Controllers {
             MapBox mapbox = new MapBox(distance, new Tuple<double, double>(coordinates[0], coordinates[1]),
                 new Tuple<double, double>(coordinates[2], coordinates[3]));
 
-            //RouteGeneration.generateOtherPoints()
+            var wayPoints = RouteGeneration.generateOtherPoints(mapbox);
             
 
-            //List<Tuple<double, double>> value = mapbox.generateMatrix(points).Result.Item2;
+            var matrixResult = mapbox.generateMatrix(wayPoints).Result;
+            var matrix = matrixResult.Item1;
+            var realCoords = matrixResult.Item2;
+            
 
-            //return value;
+            var distancesAndPoints = RouteGeneration.getDistancesAndPoints(matrix, mapbox.getDistance(), 0.5);
+
+            var random = new Random();
+            var selectedRoute = distancesAndPoints[random.Next(distancesAndPoints.Count)];
+
+            var listOfPoints = selectedRoute.Item2;
+
+            List<int> indices = new List<int>();
+            for (int i = 0; i < listOfPoints.Count; i++) {
+                indices.Add(listOfPoints[i].Item1);
+            }
+            indices.Add(listOfPoints[listOfPoints.Count-1].Item2);
+            
+            List<Tuple<double, double>> latsAndLongs = new List<Tuple<double, double>>();
+
+            for (int i = 0; i < indices.Count; i++) {
+                
+                latsAndLongs.Add(realCoords[indices[i]]);
+            }
+            
+            return latsAndLongs;
 
         }
 

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cab0df4-d548-4462-bc37-8a7b84f5cc3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MapBoxWrapper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RouteMath/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RouteMath/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RouteMath/RouteGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RouteMath/RouteGeneration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrollTrollAPI/StrollTrollAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StrollTrollAPI/StrollTrollAPI.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,26 +16,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+            <state relative-caret-position="298">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
-                <marker date="1572147533328" expanded="true" signature="6:278" ph="..." />
-                <marker date="1572147533328" expanded="true" signature="318:1560" ph="{...}" />
-                <marker date="1572147533328" expanded="true" signature="423:1558" ph="{...}" />
-                <marker date="1572147533328" expanded="true" signature="702:1303" ph="{...}" />
-                <marker date="1572147533328" expanded="true" signature="865:917" ph="{...}" />
-                <marker date="1572147533328" expanded="true" signature="1182:1292" ph="/* List&lt;Tuple&lt;double, double&gt;&gt; value = mapbox.generateMatrix(points).Result.Item2; ... */" />
-                <marker date="1572147533328" expanded="true" signature="1306:1525" ph="/* [HttpPut] ... */" />
+                <marker date="1572153256586" expanded="true" signature="6:278" ph="..." />
+                <marker date="1572153256586" expanded="true" signature="318:2468" ph="{...}" />
+                <marker date="1572153256586" expanded="true" signature="423:2466" ph="{...}" />
+                <marker date="1572153256586" expanded="true" signature="702:2211" ph="{...}" />
+                <marker date="1572153256586" expanded="true" signature="865:917" ph="{...}" />
+                <marker date="1572153256586" expanded="true" signature="1773:1840" ph="{...}" />
+                <marker date="1572153256586" expanded="true" signature="2064:2154" ph="{...}" />
+                <marker date="1572153256586" expanded="true" signature="2214:2433" ph="/* [HttpPut] ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapBoxWrapper/MapBox.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+            <state relative-caret-position="193">
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
               <folding>
                 <marker date="1572116619103" expanded="false" signature="6:168" ph="..." />
                 <marker date="1572116619103" expanded="true" signature="194:4276" ph="{...}" />
@@ -96,13 +93,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RouteMath/RouteGeneration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
+            <state relative-caret-position="1125">
               <caret line="190" column="46" selection-start-line="190" selection-start-column="46" selection-end-line="190" selection-end-column="46" />
               <folding>
                 <marker date="1572151455296" expanded="true" signature="6:68" ph="..." />
                 <marker date="1572151455296" expanded="true" signature="109:6821" ph="{...}" />
                 <marker date="1572151455296" expanded="true" signature="142:6811" ph="{...}" />
-                <marker date="1572151455296" expanded="false" signature="232:336" ph="{...}" />
+                <marker date="1572151455296" expanded="true" signature="232:336" ph="{...}" />
                 <marker date="1572151455296" expanded="false" signature="454:554" ph="{...}" />
                 <marker date="1572151455296" expanded="false" signature="657:2877" ph="{...}" />
                 <marker date="1572151455296" expanded="true" signature="1151:1228" ph="{...}" />
@@ -133,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RouteMath/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="225">
               <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
               <folding>
                 <marker date="1572151334831" expanded="true" signature="6:85" ph="..." />
@@ -246,9 +243,9 @@
         <option value="$PROJECT_DIR$/MapBoxWrapper/MapBox.cs" />
         <option value="$PROJECT_DIR$/MapBoxTest/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/StrollTrollAPI/Models/Location.cs" />
-        <option value="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" />
         <option value="$PROJECT_DIR$/RouteMath/Program.cs" />
         <option value="$PROJECT_DIR$/RouteMath/RouteGeneration.cs" />
+        <option value="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" />
       </list>
     </option>
   </component>
@@ -315,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.RouteMath">
+  <component name="RunManager" selected=".NET Launch Settings Profile.StrollTrollAPI">
     <configuration name="RouteMath" type="DotNetProject" factoryName=".NET Project" temporary="true">
       <option name="EXE_PATH" value="$PROJECT_DIR$/RouteMath/bin/Debug/netcoreapp2.2/RouteMath.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -367,7 +364,7 @@
       <updated>1572067517284</updated>
       <workItem from="1572067519537" duration="3933000" />
       <workItem from="1572073113730" duration="231000" />
-      <workItem from="1572104203587" duration="34158000" />
+      <workItem from="1572104203587" duration="36439000" />
     </task>
     <task id="LOCAL-00001" summary="deleted testing project">
       <created>1572080400648</created>
@@ -432,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572135710354</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="suffering">
+      <created>1572151647428</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1572151647429</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46115000" />
+    <option name="totallyTimeSpent" value="48396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +453,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -458,8 +461,8 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292517" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292517" />
@@ -535,7 +538,8 @@
     <MESSAGE value="Major changes" />
     <MESSAGE value="First API call" />
     <MESSAGE value="Routing Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Routing Algorithm" />
+    <MESSAGE value="suffering" />
+    <option name="LAST_COMMIT_MESSAGE" value="suffering" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,6 +601,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs" initialLine="39">
+            <startOffsets>
+              <option value="1203" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1262" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -696,6 +713,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Models/Location.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1572126968878" expanded="true" signature="67:325" ph="{...}" />
+            <marker date="1572126968878" expanded="true" signature="92:323" ph="{...}" />
+            <marker date="1572126968878" expanded="true" signature="167:290" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -713,66 +742,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding>
-            <marker date="1572147533328" expanded="true" signature="6:278" ph="..." />
-            <marker date="1572147533328" expanded="true" signature="318:1560" ph="{...}" />
-            <marker date="1572147533328" expanded="true" signature="423:1558" ph="{...}" />
-            <marker date="1572147533328" expanded="true" signature="702:1303" ph="{...}" />
-            <marker date="1572147533328" expanded="true" signature="865:917" ph="{...}" />
-            <marker date="1572147533328" expanded="true" signature="1182:1292" ph="/* List&lt;Tuple&lt;double, double&gt;&gt; value = mapbox.generateMatrix(points).Result.Item2; ... */" />
-            <marker date="1572147533328" expanded="true" signature="1306:1525" ph="/* [HttpPut] ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Models/Location.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1572126968878" expanded="true" signature="67:325" ph="{...}" />
-            <marker date="1572126968878" expanded="true" signature="92:323" ph="{...}" />
-            <marker date="1572126968878" expanded="true" signature="167:290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/MapBox.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
-          <folding>
-            <marker date="1572116619103" expanded="false" signature="6:168" ph="..." />
-            <marker date="1572116619103" expanded="true" signature="194:4276" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="220:4274" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="883:1125" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="1284:2831" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="1933:2251" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="2038:2155" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="2450:2676" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="2885:3465" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="3591:3973" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="3721:3832" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="4010:4059" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="4112:4163" ph="{...}" />
-            <marker date="1572116619103" expanded="true" signature="4214:4263" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RouteMath/RouteGeneration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
+        <state relative-caret-position="1125">
           <caret line="190" column="46" selection-start-line="190" selection-start-column="46" selection-end-line="190" selection-end-column="46" />
           <folding>
             <marker date="1572151455296" expanded="true" signature="6:68" ph="..." />
             <marker date="1572151455296" expanded="true" signature="109:6821" ph="{...}" />
             <marker date="1572151455296" expanded="true" signature="142:6811" ph="{...}" />
-            <marker date="1572151455296" expanded="false" signature="232:336" ph="{...}" />
+            <marker date="1572151455296" expanded="true" signature="232:336" ph="{...}" />
             <marker date="1572151455296" expanded="false" signature="454:554" ph="{...}" />
             <marker date="1572151455296" expanded="false" signature="657:2877" ph="{...}" />
             <marker date="1572151455296" expanded="true" signature="1151:1228" ph="{...}" />
@@ -804,7 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RouteMath/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
+        <state relative-caret-position="225">
           <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
           <folding>
             <marker date="1572151334831" expanded="true" signature="6:85" ph="..." />
@@ -814,6 +792,46 @@
             <marker date="1572151334831" expanded="true" signature="897:1395" ph="{...}" />
             <marker date="1572151334831" expanded="true" signature="1003:1373" ph="{...}" />
             <marker date="1572151334831" expanded="true" signature="1199:1288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StrollTrollAPI/Controllers/MapBoxController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <marker date="1572153256586" expanded="true" signature="6:278" ph="..." />
+            <marker date="1572153256586" expanded="true" signature="318:2468" ph="{...}" />
+            <marker date="1572153256586" expanded="true" signature="423:2466" ph="{...}" />
+            <marker date="1572153256586" expanded="true" signature="702:2211" ph="{...}" />
+            <marker date="1572153256586" expanded="true" signature="865:917" ph="{...}" />
+            <marker date="1572153256586" expanded="true" signature="1773:1840" ph="{...}" />
+            <marker date="1572153256586" expanded="true" signature="2064:2154" ph="{...}" />
+            <marker date="1572153256586" expanded="true" signature="2214:2433" ph="/* [HttpPut] ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapBoxWrapper/MapBox.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding>
+            <marker date="1572116619103" expanded="false" signature="6:168" ph="..." />
+            <marker date="1572116619103" expanded="true" signature="194:4276" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="220:4274" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="883:1125" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="1284:2831" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="1933:2251" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="2038:2155" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="2450:2676" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="2885:3465" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="3591:3973" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="3721:3832" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="4010:4059" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="4112:4163" ph="{...}" />
+            <marker date="1572116619103" expanded="true" signature="4214:4263" ph="{...}" />
           </folding>
         </state>
       </provider>
