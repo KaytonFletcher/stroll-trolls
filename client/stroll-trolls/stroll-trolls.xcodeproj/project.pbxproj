@@ -15,8 +15,6 @@
 		8F3B23542364CA5200656D0A /* RouteHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B234E2364CA5200656D0A /* RouteHistoryView.swift */; };
 		8F3B235D2364E98000656D0A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B235C2364E98000656D0A /* MapView.swift */; };
 		8F3B235E2364E98000656D0A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B235B2364E98000656D0A /* MapViewController.swift */; };
-		8F3B23602364E9C300656D0A /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B235F2364E9C300656D0A /* MapManager.swift */; };
-		8F3B23622364ECF600656D0A /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3B23612364ECF600656D0A /* MapModel.swift */; };
 		8FB2AD00236416CA0096DA90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2ACFF236416CA0096DA90 /* AppDelegate.swift */; };
 		8FB2AD02236416CA0096DA90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2AD01236416CA0096DA90 /* SceneDelegate.swift */; };
 		8FB2AD05236416CA0096DA90 /* stroll_trolls.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2AD03236416CA0096DA90 /* stroll_trolls.xcdatamodeld */; };
@@ -25,6 +23,11 @@
 		8FB2AD0F236416CD0096DA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB2AD0D236416CD0096DA90 /* LaunchScreen.storyboard */; };
 		8FB2AD1A236416CD0096DA90 /* stroll_trollsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2AD19236416CD0096DA90 /* stroll_trollsTests.swift */; };
 		8FE8238B23652AE200BCA0F4 /* DoubleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8238A23652AE200BCA0F4 /* DoubleFormatter.swift */; };
+		8FE8239423655A7C00BCA0F4 /* RouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8239323655A7C00BCA0F4 /* RouteManager.swift */; };
+		8FE8239623655AA400BCA0F4 /* RouteWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8239523655AA400BCA0F4 /* RouteWrapper.swift */; };
+		8FE8239823657D4400BCA0F4 /* RouteNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8239723657D4400BCA0F4 /* RouteNavController.swift */; };
+		8FE8239A23657F0000BCA0F4 /* RouteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8239923657F0000BCA0F4 /* RouteData.swift */; };
+		8FE8239E2365875A00BCA0F4 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8239D2365875A00BCA0F4 /* RouteView.swift */; };
 		D77B59F327BA24CC4936E265 /* Pods_stroll_trolls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292EDE1478A0917BEA61803B /* Pods_stroll_trolls.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +53,6 @@
 		8F3B234E2364CA5200656D0A /* RouteHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteHistoryView.swift; path = ../../../../../../OOF/RouteHistoryView.swift; sourceTree = "<group>"; };
 		8F3B235B2364E98000656D0A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8F3B235C2364E98000656D0A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		8F3B235F2364E9C300656D0A /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapManager.swift; sourceTree = "<group>"; };
-		8F3B23612364ECF600656D0A /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
 		8FB2ACFC236416CA0096DA90 /* stroll-trolls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stroll-trolls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB2ACFF236416CA0096DA90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FB2AD01236416CA0096DA90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,11 @@
 		8FB2AD19236416CD0096DA90 /* stroll_trollsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stroll_trollsTests.swift; sourceTree = "<group>"; };
 		8FB2AD1B236416CD0096DA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE8238A23652AE200BCA0F4 /* DoubleFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleFormatter.swift; sourceTree = "<group>"; };
+		8FE8239323655A7C00BCA0F4 /* RouteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteManager.swift; sourceTree = "<group>"; };
+		8FE8239523655AA400BCA0F4 /* RouteWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteWrapper.swift; sourceTree = "<group>"; };
+		8FE8239723657D4400BCA0F4 /* RouteNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteNavController.swift; sourceTree = "<group>"; };
+		8FE8239923657F0000BCA0F4 /* RouteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteData.swift; sourceTree = "<group>"; };
+		8FE8239D2365875A00BCA0F4 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
 		AFBA054FBF94C8839A036488 /* Pods-stroll-trolls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stroll-trolls.release.xcconfig"; path = "Target Support Files/Pods-stroll-trolls/Pods-stroll-trolls.release.xcconfig"; sourceTree = "<group>"; };
 		C0F14BD0597455E2C6D3C5E9 /* Pods-stroll-trolls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stroll-trolls.debug.xcconfig"; path = "Target Support Files/Pods-stroll-trolls/Pods-stroll-trolls.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,13 +101,6 @@
 			path = Map;
 			sourceTree = "<group>";
 		};
-		8F3B23632365269300656D0A /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		8FB2ACF3236416C90096DA90 = {
 			isa = PBXGroup;
 			children = (
@@ -125,12 +124,11 @@
 		8FB2ACFE236416CA0096DA90 /* stroll-trolls */ = {
 			isa = PBXGroup;
 			children = (
+				8FE8239223655A6D00BCA0F4 /* Route */,
 				8FE8238923652ACF00BCA0F4 /* Classes */,
-				8F3B23632365269300656D0A /* Views */,
 				8FB2ACFF236416CA0096DA90 /* AppDelegate.swift */,
 				8FB2AD01236416CA0096DA90 /* SceneDelegate.swift */,
 				8F3B23482364CA3200656D0A /* ContentView.swift */,
-				8F3B235F2364E9C300656D0A /* MapManager.swift */,
 				8FB2AD08236416CD0096DA90 /* Assets.xcassets */,
 				8FB2AD0D236416CD0096DA90 /* LaunchScreen.storyboard */,
 				8FB2AD10236416CD0096DA90 /* Info.plist */,
@@ -143,7 +141,6 @@
 				8F3B234B2364CA5200656D0A /* TestMapController.swift */,
 				8FB2AD03236416CA0096DA90 /* stroll_trolls.xcdatamodeld */,
 				8FB2AD0A236416CD0096DA90 /* Preview Content */,
-				8F3B23612364ECF600656D0A /* MapModel.swift */,
 			);
 			path = "stroll-trolls";
 			sourceTree = "<group>";
@@ -171,6 +168,18 @@
 				8FE8238A23652AE200BCA0F4 /* DoubleFormatter.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		8FE8239223655A6D00BCA0F4 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				8FE8239323655A7C00BCA0F4 /* RouteManager.swift */,
+				8FE8239523655AA400BCA0F4 /* RouteWrapper.swift */,
+				8FE8239723657D4400BCA0F4 /* RouteNavController.swift */,
+				8FE8239923657F0000BCA0F4 /* RouteData.swift */,
+				8FE8239D2365875A00BCA0F4 /* RouteView.swift */,
+			);
+			path = Route;
 			sourceTree = "<group>";
 		};
 		A15F7C62B4AF1403C083E0A6 /* Pods */ = {
@@ -364,15 +373,18 @@
 				8FB2AD05236416CA0096DA90 /* stroll_trolls.xcdatamodeld in Sources */,
 				8FE8238B23652AE200BCA0F4 /* DoubleFormatter.swift in Sources */,
 				8F3B23492364CA3200656D0A /* ContentView.swift in Sources */,
+				8FE8239A23657F0000BCA0F4 /* RouteData.swift in Sources */,
+				8FE8239E2365875A00BCA0F4 /* RouteView.swift in Sources */,
 				8F3B23542364CA5200656D0A /* RouteHistoryView.swift in Sources */,
 				8F3B235E2364E98000656D0A /* MapViewController.swift in Sources */,
-				8F3B23622364ECF600656D0A /* MapModel.swift in Sources */,
 				8FB2AD00236416CA0096DA90 /* AppDelegate.swift in Sources */,
-				8F3B23602364E9C300656D0A /* MapManager.swift in Sources */,
+				8FE8239423655A7C00BCA0F4 /* RouteManager.swift in Sources */,
+				8FE8239823657D4400BCA0F4 /* RouteNavController.swift in Sources */,
 				8F3B23502364CA5200656D0A /* HomeView.swift in Sources */,
 				8F3B23512364CA5200656D0A /* TestMapController.swift in Sources */,
 				8F3B23522364CA5200656D0A /* RouteFormView.swift in Sources */,
 				8F3B235D2364E98000656D0A /* MapView.swift in Sources */,
+				8FE8239623655AA400BCA0F4 /* RouteWrapper.swift in Sources */,
 				8FB2AD02236416CA0096DA90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
