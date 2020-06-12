@@ -65,21 +65,5 @@ namespace StrollTrollAPI.Controllers {
             return latsAndLongs;
 
         }
-
-
-//        [HttpPut]
-//        [Route("{id}")]
-//        public async Task<ActionResult<string>> PutData(string Id, [FromBody]Route route) {
-//
-//           
-//            
-//            
-//            
-//
-//
-//        }
-        
-        
-        
     }
 }
